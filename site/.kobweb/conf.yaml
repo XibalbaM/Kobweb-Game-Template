@@ -1,0 +1,14 @@
+site:
+  title: "Kobweb Game Template"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/kotlin-webpack/js/developmentExecutable/kobwebGameTemplate.js"
+      api: "build/libs/kobwebGameTemplate.jar"
+    prod:
+      script: "build/kotlin-webpack/js/productionExecutable/kobwebGameTemplate.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
